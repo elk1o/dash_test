@@ -26,5 +26,7 @@ app.layout = html.Div(children=[
     )
 ])
 
+app.css.append_css({"external_url": "https://www.gobalo.es/css/style.css"})
+
 if __name__ == '__main__':
     app.run_server(debug=True)
